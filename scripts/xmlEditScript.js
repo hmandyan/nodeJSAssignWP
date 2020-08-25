@@ -3,7 +3,7 @@ var fs = require("fs"),
 parseString = require("xml2js").parseString,
 xml2js = require("xml2js");
 
-fs.readFile("./data/OriginalTestXML.xml", "utf-8", function(err, data) {
+fs.readFile("../data/OriginalTestXML.xml", "utf-8", function(err, data) {
   if (err) console.log(err);
   console.log(data);
   // we then pass the data to our method here
@@ -28,7 +28,7 @@ fs.readFile("./data/OriginalTestXML.xml", "utf-8", function(err, data) {
     var xml = builder.buildObject(json)
     console.log(xml);
 
-    fs.writeFile("./data/EditedTestXML.xml", xml, function(err, data) {
+    fs.writeFile("../data/EditedTestXML.xml", xml, function(err, data) {
       if (err) console.log(err);
 
       console.log("successfully written and update xml to file");
