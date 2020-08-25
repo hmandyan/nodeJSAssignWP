@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Smith",
+        "company": "Wipro Tech",
+        "gender": "Male",
+        "department": "QA"
+    },
+    {
+        "name": "Robert",
+        "company": "Wipro Ltd",
+        "gender": "Male",
+        "department": "DEV"
+    }
+]
